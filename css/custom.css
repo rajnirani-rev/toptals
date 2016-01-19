@@ -1,0 +1,1507 @@
+* {
+	margin:0px;
+	padding:0px;
+}
+@charset "utf-8";
+body{
+    font-family: 'helveticaregular';
+}
+	/* ============================= Start CSS For Fonts Only ============================= */
+
+@font-face {
+    font-family: 'helveticaregular';
+    src: url('../font-family/Helvetica/Helvetica-webfont.eot');
+    src: url('../font-family/Helvetica/Helvetica-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font-family/Helvetica/Helvetica-webfont.woff2') format('woff2'),
+         url('../font-family/Helvetica/Helvetica-webfont.woff') format('woff'),
+         url('../font-family/Helvetica/Helvetica-webfont.ttf') format('truetype'),
+         url('../font-family/Helvetica/Helvetica-webfont.svg#helveticaregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'helvetica-new-bold';
+    src: url('../font-family/HelveticaNeue-Bold/HelveticaNeue-Bold.eot');
+    src: url('../font-family/HelveticaNeue-Bold/HelveticaNeue-Bold.eot?#iefix') format('embedded-opentype'),
+         url('../font-family/HelveticaNeue-Bold/HelveticaNeue-Bold.woff2') format('woff2'),
+         url('../font-family/HelveticaNeue-Bold/HelveticaNeue-Bold.woff') format('woff'),
+         url('../font-family/HelveticaNeue-Bold/HelveticaNeue-Bold.ttf') format('truetype'),
+         url('../font-family/HelveticaNeue-Bold/HelveticaNeue-Bold.svg#helvetica_neueregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+	/* ============================= End CSS For Fonts Only ============================= */
+
+	/* ============================= Start CSS For Margin Only ============================= */
+
+	.margin-top-bottom-0	    { margin: 0px !important; }
+	.margin-top-bottom-20 		{ margin: 20px 0px; }
+	.margin-top-bottom-5 		{ margin: 5px 0; }
+	.margin-top-bottom-11 		{ margin: 11px 0; }
+	.margin-top-bottom-10 		{ margin: 10px 0; }
+	.margin-top-bottom-55 		{ margin: 55px 0; }
+	.margin-bottom-30 			{ margin-bottom: 30px; }
+	.margin-bottom-55 			{ margin-bottom: 55px; }
+	.margin-bottom-70 			{ margin-bottom: 70px; }
+	.margin-bottom-10 			{ margin-bottom: 10px; }
+	.margin-bottom-35 			{ margin-bottom: 35px; }
+	.margin-bottom-5 			{ margin-bottom: 5px; }
+	.margin-top-bottom-2 		{ margin: 2px 0px; }
+	.margin-top-2-bottom-8 		{ margin: 2px 0px 8px; }
+	.margin-left-50 			{ margin-left: 50px; }
+	.margin-left-right-10 		{ margin: 0px 10px; }
+	.margin-left-right-5 		{ margin: 0px 5px; }
+	.margin-top-20-bottom-80 	{ margin-top: 20px; margin-bottom: 80px; }
+	.margin-right-15 			{ margin-right: 15px; }
+	.margin-right-5 			{ margin-right: 5px !important; }
+	.margin-top-20				{ margin-top: 20px; }
+	.margin-top-10				{ margin-top: 10px; }
+	.margin-0					{ margin: 0px; }
+	.margin-top-97				{ margin-top: 97px; }
+	.margin-top-15				{ margin-top: 15px; }
+	.margin-top-60				{ margin-top: 60px; }
+	.margin-top-54				{ margin-top: 54px; }
+	.margin-top-40				{ margin-top: 40px; }
+
+	/* ============================= End CSS For Margin Only ============================= */
+
+	/* ============================= Start CSS For Text Alignment Only ============================= */
+
+	.text-align-left 	{ text-align: left !important; }
+	.text-align-right 	{ text-align: right; }
+	.text-font-weight 	{ font-weight: bold; }
+	.text-col-white 	{ color: #ffffff; }
+	.floatLeftClass 		{ float: left; }
+	.table a:hover { color: #A03D65; }
+
+	/* ============================= End CSS For Text Alignment Only ============================= */
+
+	/* ============================= Start CSS for Font size ============================= */
+
+	.text-font-10 		{ font-size: 10px; }
+	.text-font-11 		{ font-size: 11px; }
+	.text-font-12 		{ font-size: 12px; }
+	.text-font-35 		{ font-size: 35px; }
+	.text-font-16 		{ font-size: 16px; }
+	.h4-font-text-14 	{ font-size: 14px; }
+	.h5-font-text-9 	{ font-size: 9px; }
+	.text-font-14 		{ font-size: 14px; }
+	.text-font-20 		{ font-size: 20px; }
+	.text-font-26 		{ font-size: 26px; }
+	.text-font-50 		{ font-size: 50px; }
+
+	/* ============================= Start CSS for Font size ============================= */
+	
+	/* ============================= Start CSS For Padding Only ============================= */
+
+	.padding-top-bottom-10 		{ padding: 10px 0px; }
+	.padding-top-bottom-20 		{ padding: 20px 0px; }
+	.padding-imp-top-10 		{ padding: 10px 0px 0px 0px !important; }
+	.padding-imp-top-25 		{ padding: 25px 0px 0px 0px !important; }
+	.padding-10 				{ padding: 10px; }
+	.padding-topBottom-10-leftRight-20 { padding: 10px 20px; }
+	.padding-top-80 			{ padding-top: 80px; }
+	.padding-top-bottom-80 		{ padding: 80px 0px; }
+	.padding-left-55-right-10 	{ padding: 0px 10px 0px 55px; }
+	.padding-left-right-10 		{ padding: 0px 10px; }
+	.padding-left-right-0 		{ padding: 0px 0px; }
+	.padding-top-40-bottom-15 	{ padding: 40px 0px 15px; }
+	.padding-left-right-40 		{ padding: 0px 40px; }
+	.padding-bottom-15 			{ padding-bottom: 15px; }
+	.padding-left-0 			{ padding-left: 0px; }
+	.padding-right-0 			{ padding-right: 0px; }
+	.padding-left-4				{ padding-left: 4px;}
+	.padding-top-80-bottom-120  { padding: 80px 0px 120px 0px; }
+
+	/* ============================= End CSS For Padding Only ============================= */
+
+	/* ============================= Start CSS For Button Only ============================= */
+.custom-dropdown
+{
+	border: 3px solid #D1D0D6;
+	border-radius: 9px;	
+	padding: 0 20px;
+}
+.btn-white-border {
+	border: 4px #ffffff solid;
+}
+.btn-bg-colour {
+	-moz-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	box-shadow:inset 0px 1px 0px 0px #ffffff;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ed5566), color-stop(1, #bc3549));
+	background:-moz-linear-gradient(top, #ed5566 5%, #bc3549 100%);
+	background:-webkit-linear-gradient(top, #ed5566 5%, #bc3549 100%);
+	background:-o-linear-gradient(top, #ed5566 5%, #bc3549 100%);
+	background:-ms-linear-gradient(top, #ed5566 5%, #bc3549 100%);
+	background:linear-gradient(to bottom, #ed5566 5%, #bc3549 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ed5566', endColorstr='#bc3549',GradientType=0);
+	background-color:#ed5566;
+	-moz-border-radius:7px;
+	-webkit-border-radius:7px;
+	border-radius:7px;
+	border:3px solid #ffffff;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:"helveticaregular";
+	font-size:17px;
+	font-weight:bold;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #d6524b;
+}
+.btn-bg-colour:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #bc3549), color-stop(1, #ed5566));
+	background:-moz-linear-gradient(top, #bc3549 5%, #ed5566 100%);
+	background:-webkit-linear-gradient(top, #bc3549 5%, #ed5566 100%);
+	background:-o-linear-gradient(top, #bc3549 5%, #ed5566 100%);
+	background:-ms-linear-gradient(top, #bc3549 5%, #ed5566 100%);
+	background:linear-gradient(to bottom, #bc3549 5%, #ed5566 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#bc3549', endColorstr='#ed5566',GradientType=0);
+	background-color:#bc3549;
+	color:#fff;
+}
+.btn-shadow {
+	box-shadow: 1px 1px 15px 1px #999999;
+}
+.admin-btn-padding {
+	padding: 5px 25px;
+}
+
+	/* ============================= End CSS For Button Only ============================= */
+
+	/* ============================= Admin Section CSS Started by @Meenakshi ============================= */
+/* admin nav-bar css starts by @meenakshi */
+	.exam-set {background-color: #00d3ff !important; color: #000; margin-right:10px; border: 0 none; }
+/*	.pull-right ul li a:hover, *:active
+	{
+		text-decoration: underline #fff !important;
+	}
+*/	.save-btn
+	{
+		margin-left: 104px;
+		margin-top: 104px;
+	}
+	.email-copy
+	{
+		padding-left: 12px;
+		padding-right: 0px !important; 
+		margin-top: 10px; 
+		margin-bottom: 10px;	
+	}
+	.file-upload-custom
+	{
+		background-color: #00D3FF;
+		border-color: #00D3FF;
+		border-radius:20px;
+	}
+	.file-upload-custom.active, .file-upload-custom.focus, .file-upload-custom:active, .file-upload-custom:focus,.file-upload-custom:hover, .open > .dropdown-toggle.file-upload-custom {
+		background-color: #286090;
+		border-color: #204d74;
+		color: #fff;
+	}
+	.input-custom {
+		height:25px !important;
+	}
+/*****SELECT-FILE CSS-STARTS*******/
+
+.clearfix{*zoom:1;}.clearfix:before,.clearfix:after{display:table;content:"";line-height:0;}
+.clearfix:after{clear:both;}
+.hide-text{font:0/0 a;color:transparent;text-shadow:none;background-color:transparent;border:0;}
+.input-block-level{display:block;width:100%;min-height:30px;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;}
+.btn-file{overflow:hidden;position:relative;vertical-align:middle;}.btn-file>input{position:absolute;top:0;right:0;margin:0;opacity:0;filter:alpha(opacity=0);transform:translate(-300px, 0) scale(4);font-size:23px;direction:ltr;cursor:pointer;}
+.fileupload{margin-bottom:9px;}.fileupload .uneditable-input{display:inline-block;margin-bottom:0px;vertical-align:middle;cursor:text;}
+.fileupload .thumbnail{overflow:hidden;display:inline-block;margin-bottom:5px;vertical-align:middle;text-align:center;}.fileupload .thumbnail>img{display:inline-block;vertical-align:middle;max-height:100%;}
+.fileupload .btn{vertical-align:middle;}
+.fileupload-exists .fileupload-new,.fileupload-new .fileupload-exists{display:none;}
+.fileupload-inline .fileupload-controls{display:inline;}
+.fileupload-new .input-append .btn-file{-webkit-border-radius:0 3px 3px 0;-moz-border-radius:0 3px 3px 0;border-radius:0 3px 3px 0;}
+.thumbnail-borderless .thumbnail{border:none;padding:0;-webkit-border-radius:0;-moz-border-radius:0;border-radius:0;-webkit-box-shadow:none;-moz-box-shadow:none;box-shadow:none;}
+.fileupload-new.thumbnail-borderless .thumbnail{border:1px solid #ddd;}
+.control-group.warning .fileupload .uneditable-input{color:#a47e3c;border-color:#a47e3c;}
+.control-group.warning .fileupload .fileupload-preview{color:#a47e3c;}
+.control-group.warning .fileupload .thumbnail{border-color:#a47e3c;}
+.control-group.error .fileupload .uneditable-input{color:#b94a48;border-color:#b94a48;}
+.control-group.error .fileupload .fileupload-preview{color:#b94a48;}
+.control-group.error .fileupload .thumbnail{border-color:#b94a48;}
+.control-group.success .fileupload .uneditable-input{color:#468847;border-color:#468847;}
+.control-group.success .fileupload .fileupload-preview{color:#468847;}
+.control-group.success .fileupload .thumbnail{border-color:#468847;}
+/*****SELECT-FILE CSS-ENDS*******/
+.notify-message  {
+		background: #a43e66; /* Old browsers */
+		background: -moz-linear-gradient(top,  #a43e66 0%, #a13d63 22%, #9e3a5e 31%, #9e3a60 38%, #9c385a 47%, #9b375b 53%, #983758 56%, #8e2e4a 100%); /* FF3.6+ */
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#a43e66), color-stop(22%,#a13d63), color-stop(31%,#9e3a5e), color-stop(38%,#9e3a60), color-stop(47%,#9c385a), color-stop(53%,#9b375b), color-stop(56%,#983758), color-stop(100%,#8e2e4a)); /* Chrome,Safari4+ */
+		background: -webkit-linear-gradient(top,  #a43e66 0%,#a13d63 22%,#9e3a5e 31%,#9e3a60 38%,#9c385a 47%,#9b375b 53%,#983758 56%,#8e2e4a 100%); /* Chrome10+,Safari5.1+ */
+		background: -o-linear-gradient(top,  #a43e66 0%,#a13d63 22%,#9e3a5e 31%,#9e3a60 38%,#9c385a 47%,#9b375b 53%,#983758 56%,#8e2e4a 100%); /* Opera 11.10+ */
+		background: -ms-linear-gradient(top,  #a43e66 0%,#a13d63 22%,#9e3a5e 31%,#9e3a60 38%,#9c385a 47%,#9b375b 53%,#983758 56%,#8e2e4a 100%); /* IE10+ */
+		background: linear-gradient(to bottom,  #a43e66 0%,#a13d63 22%,#9e3a5e 31%,#9e3a60 38%,#9c385a 47%,#9b375b 53%,#983758 56%,#8e2e4a 100%); /* W3C */
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a43e66', endColorstr='#8e2e4a',GradientType=0 ); /* IE6-9 */
+	}
+	
+	.custom-exam-btn
+	{
+		background: #fdfdfd; /* Old browsers */
+		background: -moz-linear-gradient(top,  #fdfdfd 0%, #f5f5f5 100%); /* FF3.6+ */
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fdfdfd), color-stop(100%,#f5f5f5)); /* Chrome,Safari4+ */
+		background: -webkit-linear-gradient(top,  #fdfdfd 0%,#f5f5f5 100%); /* Chrome10+,Safari5.1+ */
+		background: -o-linear-gradient(top,  #fdfdfd 0%,#f5f5f5 100%); /* Opera 11.10+ */
+		background: -ms-linear-gradient(top,  #fdfdfd 0%,#f5f5f5 100%); /* IE10+ */
+		background: linear-gradient(to bottom,  #fdfdfd 0%,#f5f5f5 100%); /* W3C */
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fdfdfd', endColorstr='#f5f5f5',GradientType=0 ); /* IE6-9 */
+		border: 3px solid #d9d8de;
+		border-radius: 9px;
+	}
+	.exam-set *:hover {
+		box-shadow: 0 0 3px transparent;
+	}
+	.nav-back
+	{
+		background: #a43e66; /* Old browsers */
+		background: -moz-linear-gradient(top,  #a43e66 0%, #a13d63 22%, #9e3a5e 31%, #9e3a60 38%, #9c385a 47%, #9b375b 53%, #983758 56%, #8e2e4a 100%); /* FF3.6+ */
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#a43e66), color-stop(22%,#a13d63), color-stop(31%,#9e3a5e), color-stop(38%,#9e3a60), color-stop(47%,#9c385a), color-stop(53%,#9b375b), color-stop(56%,#983758), color-stop(100%,#8e2e4a)); /* Chrome,Safari4+ */
+		background: -webkit-linear-gradient(top,  #a43e66 0%,#a13d63 22%,#9e3a5e 31%,#9e3a60 38%,#9c385a 47%,#9b375b 53%,#983758 56%,#8e2e4a 100%); /* Chrome10+,Safari5.1+ */
+		background: -o-linear-gradient(top,  #a43e66 0%,#a13d63 22%,#9e3a5e 31%,#9e3a60 38%,#9c385a 47%,#9b375b 53%,#983758 56%,#8e2e4a 100%); /* Opera 11.10+ */
+		background: -ms-linear-gradient(top,  #a43e66 0%,#a13d63 22%,#9e3a5e 31%,#9e3a60 38%,#9c385a 47%,#9b375b 53%,#983758 56%,#8e2e4a 100%); /* IE10+ */
+		background: linear-gradient(to bottom,  #a43e66 0%,#a13d63 22%,#9e3a5e 31%,#9e3a60 38%,#9c385a 47%,#9b375b 53%,#983758 56%,#8e2e4a 100%); /* W3C */
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a43e66', endColorstr='#8e2e4a',GradientType=0 ); /* IE6-9 */
+	}
+	.fa.fa-icons-custom {
+    	color: white;
+    	font-size: 20px !important;
+	}
+	.nav-pills > li.active.custom-active-color > a, .nav-pills > li.active.custom-active-color > a:focus, .nav-pills > li.active.custom-active-color > a:hover
+	{
+		background-color: #00d3ff !important;
+		color: #fff;
+	}
+	.custom-active-color {
+		position: absolute;
+		top: 3px;
+		margin-left: 40px;
+		padding-left: 5px;
+		padding-right: 10px;
+	}
+	.right-menu > li {
+    display: inline-block;
+	color: #fff;
+	}
+	.nav-pills > li > a:hover
+	{
+		background-color: #00d3ff !important;
+	}
+	.right-menu
+	{
+		display:inline-block;
+		color: #fff;
+		padding: 8px;
+	}
+	.admin-background
+	{
+	background-image: url("../images/admin-background.png");
+	background-repeat: no-repeat;
+    background-origin: padding-box;
+    background-size: cover;
+	}
+	.inner-admin-page
+	{
+		position: relative;
+		margin-top: 10%;
+		margin-left: -11%;
+		background-color: #fff;
+		border-bottom-color:#999;
+	}
+	.create-exam > a:hover 	{ color: #9e3a5e; }
+	.feature-offer-back 	{ padding-top: 222px !important; }
+/* ============================= admin nav-bar css ends by @meenakshi ============================= */
+/* Admin section Css ended */
+
+/*Start CSS for features list page @meenakshi*/
+.top-feature-arrow {
+    font-size: 30px;
+}
+#feature-list
+ {
+    display: block;
+    width: 100%;
+  /*  background: url('../images/features-background.png') no-repeat center center scroll;*/
+    background-color:#9e3a5e;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+.text-col-white.text-left.text-font-16.tab-text-font-12.padding-10 {
+    margin-bottom: 14px;
+}
+.icons-height
+{
+	height: auto;
+}
+.feature-block {
+    font-size: 12px;
+    padding: 2%;
+    text-align: left;
+}
+.list-group > li {
+    display: inline-block;
+}
+.custom-icon-color
+{
+	color: #fff;
+	opacity: 0.9px;
+}
+.link-color
+{
+	color: #fff;
+}
+/*.link-color a:focus, a:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+*/.custom-color {
+	color:#9e3a5e;
+	margin-right: 2px;
+}
+.icon-custom-size {
+    font-size: 17px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 1;
+	margin-right: 8px;
+}
+.feature-list-margin-top-30 {
+	margin-top:30px;
+}
+.feature-list-headline {
+    padding: 60px 0 0;
+}
+/* End CSS for features list page @meenakshi*/
+
+/* feature page css starts by @meenakshi */
+.top-feature-arrow {
+    font-size: 30px;
+	margin-top: 17px;
+}
+.features-background{
+    background-color: #9e3a5e;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+	font-family: helveticaregular;
+}
+.feature-top-bar {
+    background-image: url("../images/top-back-image.png");
+    background-position: left 100px top;
+    background-repeat: no-repeat;
+    background-size: auto auto;
+    margin: 0 auto;
+    padding-bottom: 1%;
+    position: relative;
+}
+.buy-now
+{
+	font-size: 15px;
+    padding: 4px 18px;
+}
+.footer-bottom-back
+{
+	background: url("../images/feature-page-bottom-back-image.png") no-repeat center bottom;
+    background-size: 100% auto;
+    padding-top: 53px;
+    position: relative;
+}
+.feature-page-content  {
+    height: auto;
+    padding-bottom: 36px;
+    position: relative;
+}
+.block
+{
+	max-width: 320px;
+	height: 230px;
+}
+.block .inner-block {
+	background-image:url('../images/cycle.png');
+    background-repeat: no-repeat;
+    width: 78%;
+	height: 88%;
+	background-size: 100%;
+	-webkit-animation: bigImg 10s infinite linear;
+    -moz-animation: bigImg 10s infinite linear;
+    animation: bigImg 10s infinite linear;
+	position: relative;
+}
+.set-text-position {
+	position: absolute;
+	left: 115px;
+}
+.block .inner-small-block {
+     width: 22%;
+	 height:100%;
+}
+.heading {
+    color: #fff;
+    font-size: 12px;
+    font-weight: bold;
+    height: 80px;
+    line-height: 15px;
+    margin: 0 auto;
+    padding: 52px 8px 0;
+    position: relative;
+    width: 100px;
+    word-wrap: normal;
+}
+.small-head {
+    color: #fff;
+    font-size: 12px;
+    height: 80px;
+    line-height: 15px;
+    margin: 0 auto;
+    position: relative;
+    width: 115px;
+    word-wrap: normal;
+}
+.features-page-custom-height {
+    height: 630px;
+}
+.footer-arrow {
+    margin-bottom: 0;
+    padding-bottom: 76px;
+    position: relative;
+}
+.subtitle
+{
+	font-size:17px;
+	padding-bottom: 2%;
+    padding-top: 6px;
+	color: #fff;
+	position:relative;
+	word-wrap: normal;
+}
+.mail-link > a {
+    color: #fff;
+    text-decoration: -moz-anchor-decoration;
+}
+/* feature page css ends by @meenakshi */
+
+/* ============================= Home page starts css by @deepak ============================= */
+
+.header-image {
+    display: block;
+    width: 100%;
+    text-align: center;
+    background: url('../images/home-banner.png') no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+.headline {
+    padding: 76px 0px;
+}
+.headline h1 {
+    font-size: 130px;
+    background: #fff;
+    background: rgba(255,255,255,0.9);
+}
+.headline h2 {
+    font-size: 43px;
+}
+.headline h3 {
+    font-size: 28px;
+}
+.headline h6 {
+	font-size: 16px;
+}
+.featurette-divider {
+    margin: 20px 0;
+}
+.featurette {
+    overflow: hidden;
+}
+.featurette-image.pull-left {
+    margin-right: 40px;
+}
+.featurette-image.pull-right {
+    margin-left: 40px;
+}
+.featurette-heading {
+    font-size: 50px;
+}
+.background-bottom-img {
+    background: url(../images/home-page-footer-bg-img.png) no-repeat center bottom;
+    background-size: 100%;
+}
+@media(max-width:1200px) {
+	.headline 			{ padding: 60px 0 35px; }
+    .headline h2 		{ font-size: 35px; }
+    .headline h3 		{ font-size: 23px; }
+	.headline h6 		{ font-size: 13px; }
+	.tab-margin-top-bottom-5 	{ margin: 5px 0px; }
+    .featurette-divider 		{ margin: 50px 0; }
+    .featurette-image.pull-left { margin-right: 20px; }
+    .featurette-image.pull-right { margin-left: 20px; }
+    .featurette-heading 		{ font-size: 35px; }
+	.md-margin-left-10 			{ margin-left: 10px; }
+	.tab-text-font-12 			{ font-size: 12px; }
+	.feature-rotate-img 		{ height: 96% !important; }
+	.feature-top-bar 			{ background-image: url("../images/top-back-image.png"); background-position: left 24px top; }
+	.set-text-position 			{ left: 130px; position: absolute; top: 10px; }
+	/* Start About us Page responsive css */
+	.aboutus-person-img-inner { left: 23% !important; }
+	.change-text-font-11 { font-size: 11px; } 
+	/* End About us Page responsive css */
+	/* Start Css for Menu Bar */
+	.change-text-font-15 { font-size: 15px; }
+	/* End Css for Menu Bar */
+	
+	/* Start Contact Page responsive css */
+	.contact-form-css { margin-top: 5% !important; }
+	/* End Contact Page responsive css */
+}
+@media(min-width: 1024px) {
+	.margin-tab-left {
+		margin-left: 50px;
+	}
+}
+@media(max-width: 1024px) {
+	.big-gear 				{ left: -34px !important; top: 15px !important; width: 47%; }
+	.medium-gear 			{ left: 150px !important; top: -51px !important; width: 32%; }
+	.small-gear 			{ left: 185px !important; top: 35px !important; width: 30%; }
+	.feature-top-bar 		{ background-image: none !important; }
+	#feature-list 			{ background-color: #9e3a5e; background-size: auto auto; font-family: helvetica; }
+	.feature-top-bar 		{ background-position: left 53px top; background-size: 31% 71%; }
+	.footer-arrow 			{ margin-bottom: 0; padding-bottom: 60px; }
+	.footer-bottom-back {
+		background-image: url("../images/bottom-background.png");
+		background-repeat: no-repeat;
+		background-attachment: scroll;
+		background-position: center bottom;
+		background-size: 100% auto;
+		-webkit-background-size: 100% auto;
+		-moz-background-size: 100% auto;
+		-o-background-size: 100% auto;
+		-ms-background-size:100% auto;
+		background-size: 100% auto;
+		filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/bottom-background.png', sizingMethod='scale');
+		-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/bottom-background.png', sizingMethod='scale')";
+	}
+	/* Start AdminPage responsive css */
+	.features-tab-text-margin-74 	{ margin-top: 74px; }
+	.features-tab-text-margin-65 	{ margin-top: 65px; }
+	.feature-offer-back 			{ padding-top: 170px !important; }
+	/* End AdminPage responsive css */
+	
+	/* Start Navbar Toggle responsive CSS */
+	.navbar-header { float: none; }
+	.navbar-toggle { display: block; }
+	.navbar-collapse { border-top: 1px solid transparent; box-shadow: inset 0 1px 0 rgba(255,255,255,0.1); }
+	.navbar-collapse.collapse { display: none!important; }
+	.navbar-collapse.collapse.in { display: block!important; }
+	.navbar-nav { float: none!important; }
+	.navbar-nav>li { float: none; width: -moz-max-content; }
+	.navbar-nav>li>a { padding-top: 10px; padding-bottom: 10px; }
+	/* End Navbar Toggle responsive css */
+}
+@media(max-width:991px) {
+	.headline {
+		padding: 75px 0 65px;
+	}
+    .headline h2 {
+        font-size: 28px;
+		margin: 3px 2px;
+    }
+    .headline h3 {
+        font-size: 18px;
+		margin: 3px 2px;
+    }
+    .headline h6 {
+        font-size: 10px;
+		margin: 4px 2px;
+    }
+	.btn-font-size {
+		font-size: 12px;
+	}
+    .featurette-divider {
+        margin: 40px 0;
+    }
+    .featurette-image {
+        max-width: 50%;
+    }
+    .featurette-image.pull-left {
+        margin-right: 10px;
+    }
+    .featurette-image.pull-right {
+        margin-left: 10px;
+    }
+    .featurette-heading {
+        font-size: 30px;
+    }
+    .xs-margin-top-20 {
+        margin-top: 20px;
+    }
+    .xs-margin-bottom-20 {
+        margin-bottom: 20px;
+    }
+	
+	/*feature page css starts*/
+	.feature-top-bar {
+    background-position: left 37px top;
+    background-size: 37% auto;
+	}
+	.padding-top-bottom-80 {
+		padding-top: 65px;
+	}
+	/*feature page css ends*/
+	/*Admin page*/
+	.email-copy {
+	   margin-top: 30px;
+	}
+	.save-btn {
+		margin-left: -15px;
+		margin-top: 15px;
+	}
+	/*admin page*/
+	.lg-sm-xs-margin-top-bottom-7{margin:7px;}
+	.free_tr-mrgn_top_20{margin-top: 20px;}
+	.sm-padding-left-right-0 { padding: 0px 0px; }
+	.sm-btn-text-font-12 { font-size: 12px; }
+
+	/* Start About Us Page responsive css */
+	.aboutus-person-img-inner { left: 31% !important; }
+	.sm-text-font-12 { font-size: 12px; }
+	/* End About us Page responsive css */
+
+	/* Start Contact Page responsive css */
+	.contact-form-css { margin-top: 7% !important; }
+	/* End Contact Page responsive css */
+}
+@media(max-width:980px){
+	/* Start HomePage responsive css */
+	.big-gear 		{ left: -102px !important; top: -3px !important; width: 60%; }
+	.medium-gear 	{ left: 48px !important; top: -64px !important; width: 40%; }
+	.small-gear 	{ left: 78px !important; top: 21px !important; width: 38%; }
+	/* End HomePage responsive css */
+}
+@media(max-width:800px) {
+	/* Start HomePage responsive css */
+	.big-gear { left: -36px !important; top: 4px !important; width: 47%; }
+	.medium-gear { left: 105px !important; top: -54px !important; width: 35%; }
+	.small-gear { left: 130px !important; top: 23px !important; width: 32%; }
+	.headline { padding: 59px 0 25px;}
+	/* End About Us responsive css */
+
+	/* Start Contact Page responsive css */
+	.contact-form-css { margin-top: 8% !important; }
+	/* End Contact Page responsive css */
+}
+@media(max-width:768px) {
+    .featurette-divider 		{ margin: 40px 0; }
+    .featurette-heading 		{ font-size: 25px; }
+    .headline h2 				{ font-size: 26px; }
+    .headline h3 				{ font-size: 17px; }
+    .headline h6 				{ margin: 3px 1px; }
+	.headline 					{ padding: 54px 0 31px; }
+	.btn-font-size 				{ font-size: 12px; }
+	.margin-left-right-0 		{ margin: 0px 0px; }
+    .navbar-toggle 				{ margin-bottom: 5px; margin-top:8px; margin-right: 10px; padding: 4px; }
+    .sm-margin-left-0 			{ margin-left: 0px; }
+   	.sm-nav-padding-10 			{ padding: 10px !important; }
+   	.sm-nav-text-font-13 		{ font-size: 13px; }
+	.big-gear 					{ left: -24px !important; top: 1px !important; width: 42%; }
+	.medium-gear 				{ left: 125px !important; top: -36px !important; width: 29%; }
+	.small-gear 				{ left: 139px !important; top: 26px !important; width: 30%; }
+	.xs-margin-bottom-15 		{ margin-bottom: 15px; }
+	.sm-adv-btn-font-size-16 	{ font-size: 16px; }
+	
+	/* Start Features Page responsive CSS */
+	.feature-rotate-img 	{ height: 99% !important; }
+	.xs-margin-bottom-10 	{ margin-bottom: 10px; }
+	.xs-margin-top-0 		{ margin-top: 0px; }
+	.feature-page-content 	{ width: 64%; }
+	.xs-margin-top-10 		{ margin-top: 10px; }
+	/* End Features Page responsive CSS */
+	
+	/* Start AdminPage responsive css */
+	.input-custom 			{ margin-left: 20px; width: 60% !important; }
+	.feature-offer-back 	{ padding-top: 137px !important; }
+	/* End AdminPage responsive css */
+	/* Start About us responsive css */
+	.xs-padding-5 { padding: 5px !important; }
+	.xs-text-font-11 { font-size: 11px; }
+	/* End About us responsive css */
+}
+@media(max-width:767px) {
+	/* Start HomePage responsive css */
+	.content-box-height-180 { min-height: auto !important; }
+	.content-height-120 { min-height: 80px; }
+	.xs-padding-left-0 { padding-left: 0px; }
+    .toptals-img-resize { width: 23%; }
+	/* End HomePage responsive css */
+	/* Start About Us responsive css */
+	.aboutus-person-img-inner { left: 41% !important; }
+	/* End About Us responsive css */
+}
+@media(max-width:736px) {
+	/* Start HomePage responsive css */
+	.big-gear 				{ left: -17px !important; top: 5px !important; }
+	.medium-gear 			{ left: 122px !important; top: -36px !important; }
+	.small-gear 			{ left: 138px !important; top: 23px !important; }
+	.headline 				{ padding: 50px 0 19px; }
+	.xs-content-height-0 	{ min-height: 0px !important; }
+	.xs-margin-bottom-10 	{ margin-bottom: 10px; }
+    .toptals-img-resize 	{ width: 23%; }
+	/* End HomePage responsive css */
+	
+	/* Start Contact Page responsive css */
+	.contact-form-css { margin-top: 9% !important; }
+	/* End Contact Page responsive css */
+}
+@media(max-width:680px) {
+	/* Start About Us responsive css */
+	.aboutus-person-img-inner { left: 40% !important; }
+	/* End About Us responsive css */
+}
+@media(max-width:668px) {
+	/* Start Home Page responsive CSS */
+	.headline 				{ padding: 50px 0px 14px; }
+    .headline h2 			{ font-size: 23px; margin: 2px 1px; }
+	.headline h3 			{ font-size: 15px; margin: 2px 1px; }
+	.headline h6 			{ font-size: 8px; }
+    .featurette-divider 	{ margin: 30px 0; }
+	.big-gear 				{ left: -16px !important; top: 0px !important; }
+	.medium-gear 			{ left: 109px !important; top: -39px !important; }
+	.small-gear 			{ left: 125px !important; top: 15px !important; }
+	.text-col-font 			{ font-size: 12px !important; }
+	/* Ends Home Page responsive CSS */
+}
+@media(max-width:640px) {
+	/* Start HomePage responsive css */
+    .headline 		{ padding: 39px 0 28px; }
+    .headline h1 	{ font-size: 60px; }
+    .headline h2 	{ font-size: 16px; margin: 3px 1px !important; }
+	.headline h3 	{ font-size: 12px; margin: 3px 1px !important; }
+	.headline h6 	{ font-size: 7px; }
+	.btn-font-size 	{ font-size: 11px; }
+	/* End HomePage responsive css */
+	
+	/* Start About Us responsive css */
+	.aboutus-person-img-inner { left: 39% !important; }
+	/* End About Us responsive css */
+	
+	/* Start Contact Page responsive css */
+	.contact-form-css { margin-top: 10% !important; }
+	/* End Contact Page responsive css */
+}
+@media(max-width:603px) {
+	/* Start About Us responsive css */
+	.aboutus-person-img-inner { left: 38% !important; }
+	/* End About Us responsive css */
+}
+@media(max-width:600px) {
+	/* Start Home Page responsive css */
+	.headline 		{ padding: 40px 0px 15px; }
+    .headline h2 	{ font-size: 20px; }
+	.headline h3 	{ font-size: 13px; margin: 2px 0px !important; }
+	.big-gear 		{ left: -15px !important; top: 3px !important; }
+	.medium-gear 	{ left: 99px !important; top: -32px !important; }
+	.small-gear 	{ left: 110px !important; top: 16px !important; }
+	/* End Home Page responsive css */
+	
+	/* Start feature page css */
+	.feature-page-content { width: 100%; }
+	/* End feature page css */
+}
+@media(max-width:568px) {
+    /* Start HomePage responsive css */
+	.navbar-toggle 				{ margin-bottom: 5px; margin-top:8px; margin-right: 10px; padding: 2px; }
+	.navbar-toggle .icon-bar 	{ width: 16px; }
+	.headline 					{ padding: 44px 0px 23px; }
+	.headline h3 				{ font-size: 13px; margin: 1px 1px !important; }
+	.headline h2 				{ font-size: 19px; margin: 1px 1px !important; }
+	.btn-white-border 			{ border: 1px solid #ffffff; padding: 4px; }
+	.big-gear 					{ left: -10px !important; top: 0px !important; width: 44%; }
+	.medium-gear 				{ left: 95px !important; top: -31px !important; width: 29%; }
+	.small-gear 				{ left: 108px !important; top: 14px !important; width: 28%; }
+	.btn-font-size 				{ font-size: 9px; }
+	/* End HomePage responsive css */	
+	/* Start feature page responsive css */
+	.set-text-position 			{ left: 135px; }
+	/* End feature page responsive css */
+	/* Start admin page responsive css */
+	.exam-set					{ margin-bottom: 20px; text-align: center; }
+	/* End admin page responsive css */
+	/* Start About Us responsive css */
+	.aboutus-person-img-inner { left: 37% !important; }
+	/* End About Us responsive css */
+
+	/* Start Contact Page responsive css */
+	.contact-form-css { margin-top: 11% !important; }
+	/* End Contact Page responsive css */
+}
+@media(max-width:480px) {
+	/* Start About Us responsive css */
+	.aboutus-person-img-inner { left: 35% !important; }
+	/* End About Us responsive css */
+	
+	/* Start Contact Page responsive css */
+	.contact-form-css { margin-top: 13% !important; }
+	/* End Contact Page responsive css */
+}
+@media(max-width:414px) {
+	/* Start HomePage responsive css */
+    .navbar-toggle 				{ margin-bottom: 5px; margin-top: 2px; margin-right: 10px; padding: 2px; }
+	.headline 					{ padding: 29px 0px 10px; }
+	.headline h2 				{ font-size: 14px; margin: 1px !important; }
+	.headline h3 				{ font-size: 9px; margin: 2px 1px !important; }
+	.headline h6 				{ margin: 2px; }
+	.big-gear 					{ left: -8px !important; top: 4px !important; width: 50%; }
+	.medium-gear 				{ left: 67px !important; top: -20px !important; width: 29%; }
+	.small-gear 				{ left: 79px !important; top: 14px !important; width: 27%; }
+	.btn-bg-colour 				{ font-weight: normal !important; }
+	/* End HomePage responsive css */
+
+	/* Start About Us responsive css */
+	.aboutus-person-img-inner { left: 32% !important; }
+	/* End About Us responsive css */
+
+	/* Start Contact Page responsive css */
+	.contact-form-css { margin-top: 14% !important; }
+	/* End Contact Page responsive css */
+}
+@media(max-width:384px) {
+	/* Start HomePage responsive css */
+	.headline 					{ padding: 29px 0px 8px; }
+    .headline h2 				{ font-size: 12px; margin: 1px 0px !important; }
+	.headline h3 				{ font-size: 8px; margin: 1px 0px !important; }
+	.navbar-toggle .icon-bar 	{ width: 14px; height: 1px; }
+	.big-gear 					{ left: -9px !important; top: 0px !important; width: 50%; }
+	.medium-gear 				{ left: 62px !important; top: -22px !important; width: 29%; }
+	.small-gear 				{ left: 72px !important; top: 9px !important; width: 28%; }
+	/* End HomePage responsive css */
+
+	/* Start adminPage responsive css */
+	.feature-offer-back 		{ padding-top: 90px !important; }
+	/* End adminPage responsive css */
+	
+	/* Start adminPage responsive css */
+	.xs-padding-top-40-bottom-80 { padding: 40px 0px 80px; }
+	/* End adminPage responsive css */
+
+	/* Start Contact Page responsive css */
+	.contact-form-css { margin-top: 16% !important; }
+	/* End Contact Page responsive css */
+}
+@media(max-width:375px) {
+	.headline {
+		padding: 26px 0px 8px;
+	}
+    .headline h2 {
+        font-size: 12px;
+    }
+	.headline h3 {
+		font-size: 8px;
+	}
+    .featurette-divider {
+        margin: 10px 0;
+    }
+    .featurette-image {
+        max-width: 100%;
+    }
+    .featurette-image.pull-left {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+    .featurette-image.pull-right {
+        margin-bottom: 10px;
+        margin-left: 0;
+    }
+    .navbar-toggle {
+        margin-bottom: 2px;        
+        margin-right: 10px;
+        padding: 1px;
+    }
+    .sm-text-font-20 {
+        font-size: 20px;
+    }
+	.big-gear {
+		left: -7px !important;
+    	top: 1px !important;
+    	width: 50%;
+	}
+	.medium-gear {
+		left: 63px !important;
+    	top: -19px !important;
+    	width: 28%;
+	}
+	.small-gear {
+		left: 71px !important;
+    	top: 10px !important;
+    	width: 28%;
+	}
+	.xs-margin-left-0 { margin-left: 0px !important; }
+	.xs-text-font-12 { font-size: 12px; }
+	.block .inner-block {
+    height: 95% !important;
+    width: 75% !important;
+	}
+	.feature-sm-margin-heading { margin-top: 65px; font-size: 11px; padding: 4px 7px 4px 61px; }
+	.features-sm-small-head { font-size: 10px; padding: 2px 51px 7px 108px; }
+	/*feature page css*/
+	.footer-arrow {
+	  margin-bottom: 0px;
+	  padding-top: 0px;
+	    padding-bottom: 53px;
+	}
+	.footer-bottom-back {
+	  padding-top: 0px;
+	}
+	.block .inner-small-block {
+ 	 width: 15%;
+	}
+	.mail-link {
+    margin-bottom: 0;
+    margin-top: 0;
+    padding-bottom: 62px;
+	}
+	.block .inner-block {
+    left: 50px;
+	}
+	.block .inner-block {
+  		height: 185px !important;
+  		width: 185px !important;
+  		margin-left: 0;
+  		position: absolute;
+	}
+	.set-text-position {
+    	left: 89px;
+    	top: 18px;
+		}
+	.heading {
+    color: #fff;
+    font-size: 12px;
+    font-weight: bold;
+    height: 61px;
+    line-height: 15px;
+    margin: 0 auto;
+    padding: 33px 8px 0;
+    position: relative;
+    width: 100px;
+    word-wrap: normal;
+	}
+	.small-head {
+    color: #fff;
+    font-size: 11px;
+    height: 80px;
+    line-height: 13px;
+    margin: 0 auto;
+    position: relative;
+    width: 110px;
+    word-wrap: normal;
+	}
+
+	/* Start About Us responsive css */
+	.aboutus-person-img-inner { left: 29% !important; }
+	/* End About Us responsive css */
+}
+@media(max-width:320px) {
+	/* Start HomePage responsive css */
+	.headline 		{ padding: 20px 0 4px; }
+	.headline h2 	{ font-size: 10px; }
+	.headline h3 	{ font-size: 7px; }
+	.btn-font-size 	{ font-size: 9px; }
+	.big-gear 		{ left: -7px !important; top: 5px !important; width: 56%; }
+	.medium-gear 	{ left: 50px !important; top: -14px !important; width: 29%; }
+	.small-gear 	{ left: 60px !important; top: 11px !important; width: 28%; }
+	/* End HomePage responsive css */
+
+	/* Start features Page Css */
+	.feature-rotate-img 			{ height: 65% !important; }
+	.feature-sm-margin-heading		{ font-size: 9px; margin-top: 50px; padding: 4px 7px 4px 43px; }
+	.features-sm-small-head			{ font-size: 10px; padding: 0 51px 7px 83px; }
+	/* Ends features Page Css */
+	
+	/* Start About Us responsive css */
+	.aboutus-person-img-inner { left: 24% !important; }
+	.comment-triangle-right::after { left: 24px !important; }
+	/* End About Us responsive css */
+
+	/* Start Contact Page responsive css */
+	.contact-form-css { margin-top: 20% !important; }
+	/* End Contact Page responsive css */
+}
+@media(max-width:240px) {
+	/* Start About Us responsive css */
+	.aboutus-person-img-inner { left: 27% !important; }
+	/* End About Us responsive css */
+	/* Start Contact Page responsive css */
+	.contact-form-css { margin-top: 26% !important; }
+	/* End Contact Page responsive css */
+}
+.navbar-right {
+	margin-right:0px !important;
+}
+.content-height-120 {
+	min-height: 120px;
+}
+.bs-docs-featurette {
+	padding: 50px 0px;
+    color: #555;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+}
+.padding-zero-left-right {
+	padding: 0px 0px !important;
+}
+.img-circle-border {
+	border: 7px #A03D65 solid;
+	border-radius: 50%;
+}
+.bg-col-white {
+	background-color: #ffffff;
+}
+.border-radius-20 {
+	border-radius: 20px; /* border-radius-20 */
+}
+.margin-top-bottom-5-right-36 {
+	margin: 5px 36px 5px 0;
+}
+.h4-bg-color {
+	background-color:#A03D65;
+}
+.content-box-height-180 {
+	min-height: 180px;
+}
+.display-inline {
+	display: inline;
+}
+.border-bottom-left-right-radius {
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+/* Start CSS Client logo slider */
+
+#flexiselDemo1 {
+	display:none;
+}
+/*** Navigation ***/
+
+.nbs-flexisel-nav-left,
+.nbs-flexisel-nav-right {
+    width: 22px;
+    height: 22px; 
+    position: absolute;
+    cursor: pointer;
+    z-index: 100;
+    opacity: 0.5;
+}
+/* used CSS */
+
+.nbs-flexisel-container {
+    position:relative;
+    max-width:100%;
+}
+.nbs-flexisel-inner {
+    overflow:hidden;
+    float:left;
+    width:100%;
+    background:#fcfcfc;
+    background: #fcfcfc -moz-linear-gradient(top, #fcfcfc 0%, #eee 100%); /* FF3.6+ */
+    background: #fcfcfc -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fcfcfc), color-stop(100%,#eee)); /* Chrome,Safari4+ */
+    background: #fcfcfc -webkit-linear-gradient(top, #fcfcfc 0%, #eee 100%); /* Chrome10+,Safari5.1+ */
+    background: #fcfcfc -o-linear-gradient(top, #fcfcfc 0%, #eee 100%); /* Opera11.10+ */
+    background: #fcfcfc -ms-linear-gradient(top, #fcfcfc 0%, #eee 100%); /* IE10+ */
+    background: #fcfcfc linear-gradient(top, #fcfcfc 0%, #eee 100%); /* W3C */
+    border:1px solid #ccc;
+    border-radius:20px;
+    -moz-border-radius:20px;
+    -webkit-border-radius:20px;  
+}
+.nbs-flexisel-ul {
+    position:relative;
+    width:9999px;
+    margin:0px;
+    padding:0px;
+    list-style-type:none;   
+    text-align:center;  
+}
+.nbs-flexisel-item {
+    float:left;
+    margin:0px;
+    padding:0px;
+    cursor:pointer;
+    position:relative;
+    line-height:0px;
+}
+.nbs-flexisel-item img {
+    width: 100%;
+    cursor: pointer;
+    position: relative;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    max-width:100px;
+    max-height:45px;
+}
+
+/* End CSS CLient Logo slider */
+
+	/* ============================= Start footer CSS @deepak ============================= */
+
+#footer {
+    background-color: #5c3053;
+    padding: 30px 0 50px;
+}
+/* Start CSS Hover effects on social Icons */
+
+.social-popout {
+	height: 48px;
+	width: 48px;
+	margin: 10px;
+	float: left;
+	-webkit-transition: all ease 0.5s;
+	-moz-transition: all ease 0.5s;
+	-o-transition: all ease 0.5s;
+	-ms-transition: all ease 0.5s;
+	transition: all ease 0.5s;
+}
+.social-popout img {
+	/*margin: 8px;*/
+	width: 100%;
+	-webkit-transition: all ease 0.5s;
+	-moz-transition: all ease 0.5s;
+	-o-transition: all ease 0.5s;
+	-ms-transition: all ease 0.5s;
+	transition: all ease 0.5s;
+}
+.social-popout img:hover {
+	margin: 0px;
+	opacity:0.8;
+}
+.website-footer-logo {
+	max-width: 100%;
+}
+.latest-news a:hover{color:#fff !important;}
+/* End CSS Hover effects on social Iccons */
+
+	/* ============================= Ends footer CSS @deepak ============================= */
+
+.bx-wrapper-margin{
+    margin-bottom: 10px;
+}
+.nav-text-color {
+    color: #565656 !important;
+}
+.nav-text-color:hover {
+    color: #565656 !important;
+}
+.bottom-img {
+	background: url("../images/home-footer-bg-img.png") no-repeat center bottom;
+	background-size: 100%;
+}
+
+/* Start Home Page Gear rotate CSS @deepak */
+	
+.big-gear {
+	position: relative;
+	left: -93px;
+	top: 23px;
+	-webkit-animation: bigImg 10s infinite linear;
+    -moz-animation: bigImg 10s infinite linear;
+    animation: bigImg 10s infinite linear;
+}
+.medium-gear {
+	position: absolute;
+	left: 136px;
+	top: -61px;
+	-webkit-animation: mediumImg 10s infinite linear;
+    -moz-animation: mediumImg 10s infinite linear;
+    animation: mediumImg 10s infinite linear;
+}
+.small-gear {
+	position: absolute;
+	left: 174px;
+	top: 55px;
+	-webkit-animation: smallImg 10s infinite linear;
+    -moz-animation: smallImg 10s infinite linear;
+    animation: smallImg 10s infinite linear;
+}
+
+@-webkit-keyframes bigImg { 0% { -webkit-transform:rotate(10deg); } 100% { -webkit-transform:rotate(370deg); } }
+
+@-moz-keyframes bigImg { 0% { -moz-transform:rotate(10deg); } 100% { -moz-transform:rotate(370deg); } }
+
+@keyframes bigImg { 0% { transform:rotate(10deg); } 100% { transform:rotate(370deg); } }
+
+@-webkit-keyframes mediumImg { 0% { -webkit-transform:rotate(0deg); } 100% { -webkit-transform:rotate(-360deg); } }
+
+@-moz-keyframes mediumImg { 0% { -moz-transform:rotate(0deg); } 100% { -moz-transform:rotate(-360deg); } }
+
+@keyframes mediumImg { 0% { transform:rotate(0deg); } 100% { transform:rotate(-360deg); } }
+
+@-webkit-keyframes smallImg { 0% { -webkit-transform:rotate(0deg); } 100% { -webkit-transform:rotate(-360deg); } }
+
+@-moz-keyframes smallImg { 0% { -moz-transform:rotate(0deg); } 100% { -moz-transform:rotate(-360deg); } }
+
+@keyframes smallImg { 0% { transform:rotate(0deg); } 100% { transform:rotate(-360deg); } }
+
+/* End Home Page Gear rotate CSS @deepak */
+
+/* Start Hover effect CSS on Home Page Img Icon */
+
+.rotate-icon-img {
+  -webkit-transition: all 0.5s ease;
+     -moz-transition: all 0.5s ease;
+       -o-transition: all 0.5s ease;
+      -ms-transition: all 0.5s ease;
+          transition: all 0.5s ease;
+}
+.rotate-icon-img:hover {
+  border-radius: 50%;
+  -webkit-transform: rotate(360deg);
+     -moz-transform: rotate(360deg);
+       -o-transform: rotate(360deg);
+      -ms-transform: rotate(360deg);
+          transform: rotate(360deg);
+}
+
+/* Ends Hover effect CSS on Home Page Img Icon */
+/* Start Before Read More arrow CSS */
+.small-circle {
+	height: 20px;
+	width: 20px;
+	border-radius: 50%;
+	background-color: #b32a56;
+	display: inline-block;
+	line-height: 1.159;
+}
+/* End Before Read More arrow CSS */
+/* Start Navbar menu CSS */
+#bs-example-navbar-collapse-1 .nav.navbar-nav li a.border-bottom-white {
+	border-bottom: 4px solid #ffffff;
+}
+#bs-example-navbar-collapse-1 .nav.navbar-nav li a.border-bottom-white:hover {
+	border-bottom: 4px solid #00c7ff;
+}
+.nav-active {
+	border-bottom: 4px solid #00c7ff !important;
+}
+.login-icon {
+	border: none !important;
+	font-size: 24px;
+	padding: 10px 0px !important;
+}
+.login-icon:hover {
+	color: #9d9d9d !important;
+}
+
+/* End Navbar menu CSS */
+
+	/* Start Login Form Popup CSS */
+
+.login_modal_footer{margin-top:5px;}
+.login_modal_header .modal-title {text-align: center; }
+.form-group{position: relative;}
+.form-group .login-field-icon { font-size: 20px; position: absolute; right: 15px; top: 3px; transition: all 0.25s ease 0s; padding-top: 2%; }
+.login-modal{ width:100%; padding-bottom:20px; }
+.login_modal_header, .login_modal_footer {background: #ffffff !important;color: #777777;}
+.modal-register-btn{margin: 4% 33% 2% 33% ;width:100%;}
+.login-modal input{height:40px; box-shadow: none; border:1px solid #ddd;}
+.modal-body-left{float:left; width:50%; padding-right:4%; border-right:1px solid #EAE9E9;}
+.modal-body-right{float:right; width:47%;}
+.login-link{padding:0 20%;}
+.modal-social-icons{padding:0 10%;}
+.facebook, .twitter, .google, .linkedin { width:100%;height:40px; padding-top:2%; margin-top:2%; }
+.modal-icons{margin-left: -10px; margin-right: 20px;}
+.google, .google:hover{background-color:#dd4b39;border:2px solid #dd4b39;color:#fff;}
+.twitter, .twitter:hover{ background-color: #00aced; border:2px solid #00aced;color: #fff;}
+.facebook, .facebook:hover{background-color: #3b5999; border:2px solid #3b5999;color:#fff;}
+.linkedin, .linkedin:hover{background-color: #007bb6; border: 2px solid #007bb6; color:#fff;}
+#social-icons-conatainer{position: relative;}
+#center-line{position: absolute;  right: 268.7px;top: 80px;background:#ddd;  border: 4px solid #DDDDDD;border-radius: 20px;}
+.modal-login-btn{width:100%;height:40px; margin-bottom:10px;}
+#modal-launcher{margin: 30% 0 0 30%; }
+h1{ border-bottom:5px solid #00BB64; }
+
+	/* End Login Form Popup CSS */
+
+	/* ============================== Home page css ends by @deepak ==============================*/
+
+	/* ============================== Start CSS for Free Trial Page by @deepak ============================= */
+
+	#free-trial {
+		display: block;
+		width: 100%;
+		background-color: #9e3a5e;
+    	font-family: helveticaregular;
+   		padding-left: 0 !important;
+   		padding-right: 0 !important
+	}
+	.form-border {
+		border: 3px solid #999999;
+	}
+	.text-underline {
+		text-decoration: underline;
+	}
+	.free-trial-headline {
+		padding: 55px 0px 40px;
+	}
+	.border-color-none {
+		border-color: transparent;
+	}
+	.border-color-none:hover {
+		background-color: #ffffff;
+		border-color: transparent;
+	}
+	.border-color-none.active.focus, .border-color-none.active:focus, .border-color-none.focus, .border-color-none.focus:active, .border-color-none:active:focus, .border-color-none:focus {
+		outline: none;
+	}
+
+	/* ============================== End CSS for Free Trial Page @deepak ============================== */
+
+	/* ============================== Start Import user CSS @deepak ============================== */
+
+	.text-col-font 		{ font-weight: bold; font-size: 14px; }
+	.astrik-img 		{ line-height: 38px; }
+	.chk-box-size 		{ width: 30px; height: 30px; border-radius: 2px solid #000000; }
+
+	/* ============================== End Import user CSS @deepak ============================== */
+
+	/* ============================== Start Student Administration user CSS @deepak ============================== */
+
+	.input-field-css 		{ border-radius: 5px; border: 1px solid #cecdd4; padding: 0px 5px; }
+	.custom-input-width 	{ width: 230px; }
+
+	/* ============================== End Student Administration user CSS @deepak ============================== */
+	
+	/* ============================== Start CSS for exam-set-up Page ============================== */
+	
+	.hide-advance-options { display: none; }
+	.setup-btn-style { background-color: #00D3FF !important; border: none; }
+	.setup-btn-style:active, .setup-btn-style.active, .setup-btn-style:focus, .setup-btn-style.focus { outline: none !important; color: #ffffff !important; }
+	.setup-btn-style:hover { color: #ffffff; }
+	#arrow_box {
+	    width:90px;
+	    height:60px;
+   		background-color:#ac3052;
+   		position:relative;
+	}
+	.arrow-right {
+		width: 0; 
+		height: 0; 
+		border-top: 30px solid transparent; 
+		border-bottom: 30px solid transparent; /* 40px height (20+20) */
+		border-left: 41px solid #ac3052;
+		position:absolute;
+		right:-40px;
+	}
+	.arrow-text-line-height { position: absolute; }
+
+	/* ============================== End CSS for exam Setup Page ============================== */
+	
+	/* ============================== Start CSS Management Report Page ============================== */
+	
+	.mgmt-btn-col-styl { background-color: #00d3ff !important; color: #fff; border: 0px none; height: 35px; border-radius: 7px; font-size: 20px; }
+	.mgmt-col-font { color:black; font-weight:bold; }
+	.mgmt-line-height { line-height: 2; }
+	.mgmt-btn-padding { padding: 4px 12px !important; }
+	.txt-line-height { line-height: 34px; }
+	
+	/* ============================== End CSS Management Report Page ============================== */
+	
+	/* ============================== Start CSS About Us Page ============================== */
+	
+	.dashed-border 	{ border: 1px dashed #ffffff; border-radius: 5px; }
+	.solid-border 	{ border: 1px solid #ffffff; border-radius: 10px; }
+	#aboutUs {
+		font-family: helveticaregular;
+		background: url('../images/aboutus-bottom-bg.png') no-repeat bottom center scroll;
+		-webkit-background-size: 100%;
+		-moz-background-size: 100%;
+		background-size: 100%;
+		-o-background-size: 100%;
+		background-color: #9e3a5e;
+	}
+	.change-btn-col	{ background-color: #9E3A5E; }
+	.btn-outer-widthSet { display: table; }
+	.change-btn-col.active, .change-btn-col.focus, .change-btn-col:active, .change-btn-col:focus, .change-btn-col:hover {
+		background-color: #00d3ff;
+		border-color: #00d3ff;
+		color: #fff;
+		text-decoration: none !important;
+	}
+	.comment-triangle-right {
+	  position:relative;
+	  padding:10px;
+	  margin:1em 0 3em;
+	  color:#333;
+	  background:#ffffff; /* default background for browsers without gradient support */
+	  background:-webkit-gradient(linear, 0 0, 0 100%, from(#ffffff), to(#ffffff));
+	  background:-moz-linear-gradient(#ffffff, #ffffff);
+	  background:-o-linear-gradient(#ffffff, #ffffff);
+	  background:linear-gradient(#ffffff, #ffffff);
+	  -webkit-border-radius:10px;
+	  -moz-border-radius:10px;
+	  border-radius:30px;
+	  left: 40%;
+	}
+	.comment-triangle-right::after {
+		border-color: #ffffff transparent;
+		border-style: solid;
+		border-width: 21px 0 0 19px;
+		bottom: -20px;
+		content: "";
+		display: block;
+		left: 14px;
+		position: absolute;
+		width: 0;
+	}
+	#hide_aboutus_content1{overflow-y:scroll; }
+	#hide_aboutus_content2{overflow-y:scroll; }
+	#hide_aboutus_content3{overflow-y:scroll; }
+	.scroll-textBox { overflow:hidden; height: 200px; }
+	.aboutus-person-img-outer { position: relative; left: 0%; top: 0%; }
+	.aboutus-person-img-inner { position:absolute; left: 25%; top: 16%; }
+	#ascrail2000 { z-index: 900 !important; } #ascrail2000-hr { z-index: 900 !important; }
+	#ascrail2000 { z-index: 900 !important; } #ascrail2000-hr { z-index: 900 !important; }
+	#ascrail2000 { z-index: 900 !important; } #ascrail2000-hr { z-index: 900 !important; }
+	
+	/* ============================== End CSS About Us Page ================================ */
+	
+	/* ============================== Start CSS Contact Page ================================ */
+	
+	.contact-first-div { width: 100%; }
+	.dashed-border-img { 
+		background-image: url(../images/dashed-border.png);
+		background-repeat: repeat-x;
+	}
+	#contact-map-canvas {
+		height: 480px;
+		width: auto;
+	}
+	.setdiv-width { display: table; width: 100%; }
+	.txt-decoration { text-decoration: underline; }
+	.change-fontPadding { font-size: 13px; padding: 4px 10px; }
+	.left-inner-addon { position: relative; }
+	.left-inner-addon input { padding-left: 30px; }
+	.left-inner-addon textarea { padding-left: 30px; }
+	.left-inner-addon i { position: absolute; padding: 10px 12px; pointer-events: none; }
+	.contact-form-border { border: 3px solid #68616e; }
+	.contact-form-css {
+		-webkit-box-shadow: 28px 4px 88px 0 #b0a4a6;
+		-moz-box-shadow: 28px 4px 88px 0 #b0a4a6;
+		box-shadow: 28px 4px 88px 0 #b0a4a6;
+		position: absolute; z-index:1; margin-top: 5%; right: 4%;
+	}
+	.contact-btn-border-col { border-color: #CCC; }
+	.navbar-fixed-bottom .navbar-collapse, .navbar-fixed-top .navbar-collapse { max-height:none; }
+	
+	/* ============================== End CSS Contact Page ================================ */
+	/* For Showing error */
+	.err {
+	    color: #a43e66;
+    	font-size: 10px;
+	}

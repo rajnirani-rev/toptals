@@ -1,0 +1,135 @@
+[22-Apr-2015 01:09:50 America/Chicago] PHP Fatal error:  Class 'Controller' not found in /home/bidboli/public_html/application/controllers/dashboard.php on line 3
+[22-Apr-2015 01:10:49 America/Chicago] PHP Fatal error:  Call to undefined method CI_Controller::Controller() in /home/bidboli/public_html/application/controllers/dashboard.php on line 7
+[22-Apr-2015 01:22:25 America/Chicago] PHP Fatal error:  Call to undefined function base_url() in /home/bidboli/public_html/application/views/includes/header.php on line 13
+[22-Apr-2015 01:22:37 America/Chicago] PHP Fatal error:  Call to undefined function redirect() in /home/bidboli/public_html/application/controllers/dashboard.php on line 25
+[22-Apr-2015 01:23:07 America/Chicago] PHP Fatal error:  Call to undefined function base_url() in /home/bidboli/public_html/application/views/includes/header.php on line 13
+[22-Apr-2015 01:26:22 America/Chicago] PHP Fatal error:  Call to undefined function base_url() in /home/bidboli/public_html/application/views/includes/header.php on line 13
+[22-Apr-2015 01:28:57 America/Chicago] PHP Fatal error:  Call to undefined function base_url() in /home/bidboli/public_html/application/views/includes/header.php on line 13
+[22-Apr-2015 01:28:59 America/Chicago] PHP Fatal error:  Call to undefined function base_url() in /home/bidboli/public_html/application/views/includes/header.php on line 13
+[22-Apr-2015 01:29:49 America/Chicago] PHP Fatal error:  Call to undefined function base_url() in /home/bidboli/public_html/application/views/includes/header.php on line 13
+[22-Apr-2015 01:29:50 America/Chicago] PHP Fatal error:  Call to undefined function base_url() in /home/bidboli/public_html/application/views/includes/header.php on line 13
+[22-Apr-2015 01:33:03 America/Chicago] PHP Fatal error:  Call to undefined function base_url() in /home/bidboli/public_html/application/views/includes/header.php on line 13
+[22-Apr-2015 01:33:08 America/Chicago] PHP Fatal error:  Call to undefined function redirect() in /home/bidboli/public_html/application/controllers/dashboard.php on line 25
+[22-Apr-2015 01:33:14 America/Chicago] PHP Fatal error:  Call to undefined function base_url() in /home/bidboli/public_html/application/views/includes/header.php on line 13
+[20-Nov-2015 00:24:08 America/Chicago] PHP Fatal error:  Call to undefined function hash_call() in /home2/toptals/public_html/application/controllers/checkout.php on line 179
+[23-Nov-2015 06:28:05 America/Chicago] PHP Parse error:  syntax error, unexpected end of file in /home2/toptals/public_html/application/views/free_trial.php on line 172
+[24-Nov-2015 02:59:02 America/Chicago] PHP Parse error:  syntax error, unexpected 'HTTP_HOST' (T_STRING) in /home2/toptals/public_html/application/controllers/organization.php on line 594
+[03-Dec-2015 23:56:42 America/Chicago] PHP Fatal error:  Call to undefined function form_open() in /home2/toptals/public_html/application/views/includes/header.php on line 132
+[04-Dec-2015 00:01:51 America/Chicago] PHP Fatal error:  Call to undefined function form_open() in /home2/toptals/public_html/application/views/includes/header.php on line 132
+[04-Dec-2015 00:07:00 America/Chicago] PHP Fatal error:  Call to undefined function form_open() in /home2/toptals/public_html/application/views/includes/header.php on line 132
+[04-Dec-2015 00:10:28 America/Chicago] PHP Fatal error:  Call to undefined function form_open() in /home2/toptals/public_html/application/views/includes/header.php on line 132
+[04-Dec-2015 00:11:23 America/Chicago] PHP Fatal error:  Call to undefined function form_open() in /home2/toptals/public_html/application/views/includes/header.php on line 132
+[04-Dec-2015 00:12:25 America/Chicago] PHP Fatal error:  Call to undefined function form_open() in /home2/toptals/public_html/application/views/includes/header.php on line 132
+[04-Dec-2015 00:14:01 America/Chicago] PHP Fatal error:  Call to undefined function form_open() in /home2/toptals/public_html/application/views/includes/header.php on line 132
+[04-Dec-2015 00:18:08 America/Chicago] PHP Fatal error:  Call to undefined function form_open() in /home2/toptals/public_html/application/views/includes/header.php on line 132
+[04-Dec-2015 00:25:26 America/Chicago] PHP Fatal error:  Call to undefined function form_open() in /home2/toptals/public_html/application/views/includes/header.php on line 132
+[04-Dec-2015 00:25:51 America/Chicago] PHP Fatal error:  Call to undefined function base_url() in /home2/toptals/public_html/application/views/includes/footer.php on line 6
+[04-Dec-2015 00:26:17 America/Chicago] PHP Fatal error:  Call to undefined function form_open() in /home2/toptals/public_html/application/views/includes/header.php on line 132
+[04-Dec-2015 00:28:15 America/Chicago] PHP Fatal error:  Call to a member function view() on a non-object in /home2/toptals/public_html/application/controllers/latest_news.php on line 6
+[04-Dec-2015 00:31:01 America/Chicago] PHP Parse error:  syntax error, unexpected 'exit' (T_EXIT) in /home2/toptals/public_html/application/controllers/latest_news.php on line 1
+[04-Dec-2015 00:32:15 America/Chicago] PHP Fatal error:  Call to undefined function form_open() in /home2/toptals/public_html/application/views/includes/header.php on line 132
+[04-Dec-2015 00:58:06 America/Chicago] PHP Fatal error:  Call to undefined function form_open() in /home2/toptals/public_html/application/views/includes/header.php on line 132
+[04-Dec-2015 00:58:36 America/Chicago] PHP Fatal error:  Call to undefined function form_open() in /home2/toptals/public_html/application/views/includes/header.php on line 132
+[04-Dec-2015 01:04:24 America/Chicago] PHP Fatal error:  Call to undefined function form_open() in /home2/toptals/public_html/application/views/includes/header.php on line 132
+[04-Dec-2015 01:08:48 America/Chicago] PHP Fatal error:  Call to undefined function form_open() in /home2/toptals/public_html/application/views/includes/header.php on line 132
+[04-Dec-2015 01:10:59 America/Chicago] PHP Fatal error:  Call to undefined function form_open() in /home2/toptals/public_html/application/views/includes/header.php on line 132
+[04-Dec-2015 01:11:39 America/Chicago] PHP Fatal error:  Call to undefined function form_open() in /home2/toptals/public_html/application/views/includes/header.php on line 132
+[04-Dec-2015 01:22:47 America/Chicago] PHP Fatal error:  Call to undefined function form_open() in /home2/toptals/public_html/application/views/includes/header.php on line 132
+[04-Dec-2015 01:34:11 America/Chicago] PHP Fatal error:  Call to undefined function form_open() in /home2/toptals/public_html/application/views/includes/header.php on line 132
+[04-Dec-2015 01:41:00 America/Chicago] PHP Fatal error:  Call to undefined function form_open() in /home2/toptals/public_html/application/views/includes/header.php on line 132
+[04-Dec-2015 01:41:01 America/Chicago] PHP Fatal error:  Call to undefined function form_open() in /home2/toptals/public_html/application/views/includes/header.php on line 132
+[04-Dec-2015 01:46:23 America/Chicago] PHP Fatal error:  Call to undefined function form_open() in /home2/toptals/public_html/application/views/includes/header.php on line 132
+[04-Dec-2015 02:44:29 America/Chicago] PHP Fatal error:  Call to undefined function form_open() in /home2/toptals/public_html/application/views/includes/header.php on line 132
+[04-Dec-2015 02:45:02 America/Chicago] PHP Fatal error:  Call to undefined function form_open() in /home2/toptals/public_html/application/views/includes/header.php on line 132
+[07-Dec-2015 04:07:55 America/Chicago] PHP Fatal error:  Class 'Newfeatures_model' not found in /home2/toptals/public_html/system/core/Loader.php on line 303
+[07-Dec-2015 04:09:48 America/Chicago] PHP Fatal error:  Cannot redeclare class newfeatures in /home2/toptals/public_html/application/models/newfeatures_model.php on line 83
+[08-Dec-2015 01:58:01 America/Chicago] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home2/toptals/public_html/application/views/organization_home.php on line 8
+[08-Dec-2015 02:44:34 America/Chicago] PHP Parse error:  syntax error, unexpected '$loc' (T_VARIABLE) in /home2/toptals/public_html/application/views/organization_home.php on line 9
+[08-Dec-2015 02:49:48 America/Chicago] PHP Parse error:  syntax error, unexpected '$_SERVER' (T_VARIABLE) in /home2/toptals/public_html/application/views/organization_home.php on line 10
+[08-Dec-2015 02:50:14 America/Chicago] PHP Parse error:  syntax error, unexpected '$_SERVER' (T_VARIABLE) in /home2/toptals/public_html/application/views/organization_home.php on line 10
+[08-Dec-2015 03:05:23 America/Chicago] PHP Parse error:  syntax error, unexpected end of file in /home2/toptals/public_html/application/views/organization_home.php on line 86
+[08-Dec-2015 03:07:36 America/Chicago] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home2/toptals/public_html/application/views/organization_home.php on line 10
+[08-Dec-2015 03:11:09 America/Chicago] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home2/toptals/public_html/application/views/organization_home.php on line 10
+[08-Dec-2015 05:12:02 America/Chicago] PHP Parse error:  syntax error, unexpected 'as' (T_AS) in /home2/toptals/public_html/application/views/includes/header.php on line 11
+[08-Dec-2015 05:12:47 America/Chicago] PHP Parse error:  syntax error, unexpected 'as' (T_AS) in /home2/toptals/public_html/application/views/includes/header.php on line 11
+[08-Dec-2015 23:06:33 America/Chicago] PHP Parse error:  syntax error, unexpected ';' in /home2/toptals/public_html/application/models/forgotpass_model.php on line 10
+[08-Dec-2015 23:07:09 America/Chicago] PHP Parse error:  syntax error, unexpected ';' in /home2/toptals/public_html/application/models/forgotpass_model.php on line 10
+[08-Dec-2015 23:07:42 America/Chicago] PHP Parse error:  syntax error, unexpected ';' in /home2/toptals/public_html/application/models/forgotpass_model.php on line 10
+[09-Dec-2015 01:11:51 America/Chicago] PHP Fatal error:  Cannot use [] for reading in /home2/toptals/public_html/application/views/organization_home.php on line 14
+[09-Dec-2015 01:13:48 America/Chicago] PHP Fatal error:  Cannot use [] for reading in /home2/toptals/public_html/application/views/organization_home.php on line 14
+[15-Dec-2015 23:07:49 America/Chicago] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home2/toptals/public_html/application/models/organization_model.php on line 183
+[16-Dec-2015 01:53:04 America/Chicago] PHP Parse error:  syntax error, unexpected ''user_da' (T_ENCAPSED_AND_WHITESPACE), expecting ')' in /home2/toptals/public_html/application/controllers/organization.php on line 138
+[16-Dec-2015 01:57:23 America/Chicago] PHP Parse error:  syntax error, unexpected ''user_da' (T_ENCAPSED_AND_WHITESPACE), expecting ')' in /home2/toptals/public_html/application/controllers/organization.php on line 138
+[16-Dec-2015 02:50:25 America/Chicago] PHP Parse error:  syntax error, unexpected ';', expecting ']' in /home2/toptals/public_html/application/views/organization_home.php on line 11
+[16-Dec-2015 02:50:26 America/Chicago] PHP Parse error:  syntax error, unexpected ';', expecting ']' in /home2/toptals/public_html/application/views/organization_home.php on line 11
+[16-Dec-2015 02:50:26 America/Chicago] PHP Parse error:  syntax error, unexpected ';', expecting ']' in /home2/toptals/public_html/application/views/organization_home.php on line 11
+[16-Dec-2015 03:52:51 America/Chicago] PHP Parse error:  syntax error, unexpected '}' in /home2/toptals/public_html/application/views/includes/header_student.php on line 159
+[16-Dec-2015 06:07:06 America/Chicago] PHP Parse error:  syntax error, unexpected ';', expecting ']' in /home2/toptals/public_html/application/views/myacc_view.php on line 21
+[16-Dec-2015 06:48:12 America/Chicago] PHP Fatal error:  Class 'Student_model' not found in /home2/toptals/public_html/system/core/Loader.php on line 303
+[16-Dec-2015 06:49:17 America/Chicago] PHP Fatal error:  Call to undefined function sell() in /home2/toptals/public_html/application/controllers/student.php on line 18
+[16-Dec-2015 06:49:34 America/Chicago] PHP Fatal error:  Call to undefined function sell() in /home2/toptals/public_html/application/controllers/student.php on line 18
+[16-Dec-2015 06:49:36 America/Chicago] PHP Fatal error:  Call to undefined function sell() in /home2/toptals/public_html/application/controllers/student.php on line 18
+[16-Dec-2015 06:50:07 America/Chicago] PHP Fatal error:  Call to undefined function sell() in /home2/toptals/public_html/application/controllers/student.php on line 18
+[16-Dec-2015 23:10:44 America/Chicago] PHP Parse error:  syntax error, unexpected '.' in /home2/toptals/public_html/application/views/organization_home.php on line 72
+[16-Dec-2015 23:10:46 America/Chicago] PHP Parse error:  syntax error, unexpected '.' in /home2/toptals/public_html/application/views/organization_home.php on line 72
+[16-Dec-2015 23:10:46 America/Chicago] PHP Parse error:  syntax error, unexpected '.' in /home2/toptals/public_html/application/views/organization_home.php on line 72
+[16-Dec-2015 23:11:25 America/Chicago] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home2/toptals/public_html/application/views/organization_home.php on line 72
+[16-Dec-2015 23:11:26 America/Chicago] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home2/toptals/public_html/application/views/organization_home.php on line 72
+[16-Dec-2015 23:11:26 America/Chicago] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home2/toptals/public_html/application/views/organization_home.php on line 72
+[16-Dec-2015 23:12:00 America/Chicago] PHP Parse error:  syntax error, unexpected '.', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in /home2/toptals/public_html/application/views/organization_home.php on line 72
+[16-Dec-2015 23:12:01 America/Chicago] PHP Parse error:  syntax error, unexpected '.', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in /home2/toptals/public_html/application/views/organization_home.php on line 72
+[16-Dec-2015 23:12:02 America/Chicago] PHP Parse error:  syntax error, unexpected '.', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in /home2/toptals/public_html/application/views/organization_home.php on line 72
+[17-Dec-2015 00:11:05 America/Chicago] PHP Parse error:  syntax error, unexpected '{' in /home2/toptals/public_html/application/models/student_model.php on line 47
+[17-Dec-2015 00:21:43 America/Chicago] PHP Fatal error:  Class 'Student_model' not found in /home2/toptals/public_html/system/core/Loader.php on line 303
+[17-Dec-2015 00:28:00 America/Chicago] PHP Parse error:  syntax error, unexpected end of file, expecting ')' in /home2/toptals/public_html/application/models/student_model.php on line 190
+[17-Dec-2015 00:28:16 America/Chicago] PHP Parse error:  syntax error, unexpected end of file, expecting ')' in /home2/toptals/public_html/application/models/student_model.php on line 190
+[17-Dec-2015 00:37:28 America/Chicago] PHP Fatal error:  Call to a member function result() on a non-object in /home2/toptals/public_html/application/views/myacc_view.php on line 19
+[17-Dec-2015 00:38:21 America/Chicago] PHP Fatal error:  Call to a member function result() on a non-object in /home2/toptals/public_html/application/views/myacc_view.php on line 19
+[17-Dec-2015 00:57:06 America/Chicago] PHP Parse error:  syntax error, unexpected end of file, expecting ',' or ';' in /home2/toptals/public_html/application/views/includes/header_student.php on line 34
+[17-Dec-2015 06:41:02 America/Chicago] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO), expecting function (T_FUNCTION) in /home2/toptals/public_html/application/models/student_model.php on line 42
+[17-Dec-2015 06:44:25 America/Chicago] PHP Fatal error:  Class 'Student_model' not found in /home2/toptals/public_html/system/core/Loader.php on line 303
+[21-Dec-2015 04:56:37 America/Chicago] PHP Fatal error:  Call to undefined function base_uri() in /home2/toptals/public_html/application/views/myacc_view.php on line 15
+[21-Dec-2015 04:56:41 America/Chicago] PHP Fatal error:  Call to undefined function base_uri() in /home2/toptals/public_html/application/views/myacc_view.php on line 15
+[21-Dec-2015 05:01:29 America/Chicago] PHP Parse error:  syntax error, unexpected end of file in /home2/toptals/public_html/application/controllers/student.php on line 118
+[21-Dec-2015 05:22:23 America/Chicago] PHP Fatal error:  Class 'Student_model' not found in /home2/toptals/public_html/system/core/Loader.php on line 303
+[21-Dec-2015 05:22:30 America/Chicago] PHP Fatal error:  Class 'Student_model' not found in /home2/toptals/public_html/system/core/Loader.php on line 303
+[21-Dec-2015 05:47:16 America/Chicago] PHP Fatal error:  Can't use method return value in write context in /home2/toptals/public_html/application/models/student_model.php on line 30
+[21-Dec-2015 05:47:21 America/Chicago] PHP Fatal error:  Can't use method return value in write context in /home2/toptals/public_html/application/models/student_model.php on line 30
+[21-Dec-2015 05:48:27 America/Chicago] PHP Fatal error:  Can't use method return value in write context in /home2/toptals/public_html/application/models/student_model.php on line 30
+[21-Dec-2015 05:48:29 America/Chicago] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home2/toptals/public_html/application/models/student_model.php on line 48
+[21-Dec-2015 05:48:30 America/Chicago] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home2/toptals/public_html/application/models/student_model.php on line 48
+[21-Dec-2015 05:48:31 America/Chicago] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home2/toptals/public_html/application/models/student_model.php on line 48
+[21-Dec-2015 05:48:32 America/Chicago] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home2/toptals/public_html/application/models/student_model.php on line 48
+[21-Dec-2015 05:48:33 America/Chicago] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home2/toptals/public_html/application/models/student_model.php on line 48
+[21-Dec-2015 05:48:54 America/Chicago] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home2/toptals/public_html/application/models/student_model.php on line 48
+[21-Dec-2015 05:49:04 America/Chicago] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home2/toptals/public_html/application/models/student_model.php on line 48
+[21-Dec-2015 06:04:25 America/Chicago] PHP Fatal error:  Class 'Student_model' not found in /home2/toptals/public_html/system/core/Loader.php on line 303
+[21-Dec-2015 06:10:23 America/Chicago] PHP Fatal error:  Class 'Student_model' not found in /home2/toptals/public_html/system/core/Loader.php on line 303
+[21-Dec-2015 06:20:18 America/Chicago] PHP Fatal error:  Class 'Student_model' not found in /home2/toptals/public_html/system/core/Loader.php on line 303
+[21-Dec-2015 06:28:49 America/Chicago] PHP Fatal error:  Call to undefined function segment() in /home2/toptals/public_html/application/views/myacc_view.php on line 52
+[22-Dec-2015 00:11:18 America/Chicago] PHP Parse error:  syntax error, unexpected end of file in /home2/toptals/public_html/application/controllers/organization.php on line 97
+[22-Dec-2015 00:15:53 America/Chicago] PHP Fatal error:  Class 'Organization_model' not found in /home2/toptals/public_html/system/core/Loader.php on line 303
+[22-Dec-2015 00:25:15 America/Chicago] PHP Parse error:  syntax error, unexpected '$this' (T_VARIABLE) in /home2/toptals/public_html/application/models/organization_model.php on line 7
+[22-Dec-2015 00:25:16 America/Chicago] PHP Parse error:  syntax error, unexpected '$this' (T_VARIABLE) in /home2/toptals/public_html/application/models/organization_model.php on line 7
+[22-Dec-2015 00:25:26 America/Chicago] PHP Parse error:  syntax error, unexpected '$this' (T_VARIABLE) in /home2/toptals/public_html/application/models/organization_model.php on line 7
+[22-Dec-2015 00:25:28 America/Chicago] PHP Fatal error:  Class 'Organization_model' not found in /home2/toptals/public_html/system/core/Loader.php on line 303
+[22-Dec-2015 00:26:33 America/Chicago] PHP Fatal error:  Class 'Organization_model' not found in /home2/toptals/public_html/system/core/Loader.php on line 303
+[22-Dec-2015 00:32:22 America/Chicago] PHP Fatal error:  Cannot use object of type stdClass as array in /home2/toptals/public_html/application/views/view_exam.php on line 15
+[22-Dec-2015 00:32:23 America/Chicago] PHP Fatal error:  Cannot use object of type stdClass as array in /home2/toptals/public_html/application/views/view_exam.php on line 15
+[22-Dec-2015 00:40:38 America/Chicago] PHP Parse error:  syntax error, unexpected ''questi' (T_ENCAPSED_AND_WHITESPACE), expecting ')' in /home2/toptals/public_html/application/models/organization_model.php on line 434
+[22-Dec-2015 00:41:45 America/Chicago] PHP Fatal error:  Cannot use object of type CI_DB_mysql_result as array in /home2/toptals/public_html/application/models/organization_model.php on line 18
+[22-Dec-2015 00:41:46 America/Chicago] PHP Fatal error:  Cannot use object of type CI_DB_mysql_result as array in /home2/toptals/public_html/application/models/organization_model.php on line 18
+[22-Dec-2015 00:41:47 America/Chicago] PHP Fatal error:  Cannot use object of type CI_DB_mysql_result as array in /home2/toptals/public_html/application/models/organization_model.php on line 18
+[22-Dec-2015 00:41:49 America/Chicago] PHP Fatal error:  Cannot use object of type CI_DB_mysql_result as array in /home2/toptals/public_html/application/models/organization_model.php on line 18
+[22-Dec-2015 01:07:19 America/Chicago] PHP Fatal error:  Class 'Organization_model' not found in /home2/toptals/public_html/system/core/Loader.php on line 303
+[22-Dec-2015 01:09:39 America/Chicago] PHP Parse error:  syntax error, unexpected '$value' (T_VARIABLE), expecting ',' or ';' in /home2/toptals/public_html/application/views/view_exam.php on line 24
+[22-Dec-2015 01:11:10 America/Chicago] PHP Parse error:  syntax error, unexpected end of file in /home2/toptals/public_html/application/models/organization_model.php on line 433
+[24-Dec-2015 00:33:40 America/Chicago] PHP Parse error:  syntax error, unexpected end of file in /home2/toptals/public_html/application/views/home_view.php on line 82
+[24-Dec-2015 00:33:56 America/Chicago] PHP Parse error:  syntax error, unexpected end of file in /home2/toptals/public_html/application/views/home_view.php on line 82
+[28-Dec-2015 04:20:33 America/Chicago] PHP Warning:  Unterminated comment starting line 78 in /home2/toptals/public_html/application/views/includes/header_student.php on line 78
+[28-Dec-2015 04:21:12 America/Chicago] PHP Warning:  Unterminated comment starting line 78 in /home2/toptals/public_html/application/views/includes/header_student.php on line 78
+[28-Dec-2015 04:26:13 America/Chicago] PHP Warning:  Unterminated comment starting line 79 in /home2/toptals/public_html/application/views/includes/header_student.php on line 79
+[28-Dec-2015 04:56:49 America/Chicago] PHP Parse error:  syntax error, unexpected '}' in /home2/toptals/public_html/application/views/includes/header_student.php on line 63
+[08-Jan-2016 23:45:50 America/Chicago] PHP Fatal error:  Call to undefined function hash_call() in /home2/toptals/public_html/application/controllers/checkout.php on line 411
+[09-Jan-2016 00:04:40 America/Chicago] PHP Fatal error:  Call to undefined function hash_call() in /home2/toptals/public_html/application/controllers/checkout.php on line 411
+[09-Jan-2016 00:36:21 America/Chicago] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC) in /home2/toptals/public_html/application/controllers/checkout.php on line 506

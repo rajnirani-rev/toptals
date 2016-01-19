@@ -1,0 +1,529 @@
+/* plans page css starts by @meenakshi */
+.section {
+    padding-bottom: 30px;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 30px;
+    transform: translateZ(0px);
+}
+.plan-wrapper {
+    margin-bottom: -110px;
+}
+
+.cycle-blocks {
+    background-size: 55% auto;
+ }
+.plan-background
+{
+    background-color: #9e3a5e;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+	font-family: helveticaregular;
+}
+
+.footer-bottom-plan-back {
+			background-image: url("../images/bottom-background.png");
+			background-repeat: no-repeat;
+			background-attachment: scroll;
+			background-position: center bottom;
+			background-size: 100% auto;
+			-webkit-background-size: 100% auto;
+			-moz-background-size: 100% auto;
+			-o-background-size: 100% auto;
+			-ms-background-size:100% auto;
+			background-size: 100% auto;
+			filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/bottom-background.png', sizingMethod='scale');
+-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/bottom-background.png', sizingMethod='scale')";
+			padding-top: 140px;
+			position: relative;
+}
+.plan-bottom-arrow {
+    left: 81%;
+    margin: 0 auto;
+    position: absolute;
+    top: 155px;
+}
+.plan-top-bar
+{
+	position:relative;
+	background-image: url("../images/plan-page-top-arrow-background.png");
+	margin: 0 auto;
+   background-repeat: no-repeat;
+	background-position: right 4pc top;
+	background-position-x: 88%;
+}
+.top-bottom-arrow
+{ 
+	position:relative;
+	background-image: url("../images/plan-page-toptobottom-background.png");
+	margin: 0 auto;
+	background-position: left 7% top;  
+	background-position-x: 10%; 
+   background-repeat: no-repeat;
+}
+.top-arrow-title
+{
+	font-size: 30px;
+	padding-top: 4pc;
+	padding-bottom: 0px;
+   position: relative;
+   font-weight: bold;
+	color: #fff;
+	position:relative;
+	word-wrap: normal;
+	font-family: 'helvetica-new-bold';
+}
+.sub-text
+{
+	font-size:15px;
+	color: #fff;
+	position:relative;
+	word-wrap: normal;
+}
+.cycle-blocks {
+    background-image: url("../images/plan-page-inner-circle-background.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 55% auto;
+    height: 187px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+.my-inner.prize-list-text li {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+}
+
+.cycle-sub-block {
+    background-image: url("../images/cycle.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 170px;
+    width: 170px;
+    float: left;
+    
+}
+.border-circle {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4px;
+    padding-left: 260px;
+    text-align: center;
+    width: 100%;
+}
+.prize-wrapper {
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: 14pc;
+    margin-top: 0;
+    padding-left: 12pc;
+    text-align: center;
+}
+.number1,.number2,.number3,.number4	{
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+    height: 30px;
+    line-height: 37px;
+    margin-bottom: 6px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    text-align: center;
+    
+}
+.number1 {
+	font-size:33px; font-weight:600; margin-top: 6px;
+	width: 40px;
+}
+.number2 {
+	font-size:36px; margin-top: 4px;
+	 width: 50px;
+}
+.number3 {
+	font-size:38px; margin-top: 2px;
+	 width: 80px;
+}
+.number4 {
+    width: 100px;
+    font-size:40px; margin-top: 1px; margin-left: -8px;
+}
+.test1, .test2, .test3, .test4 {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: lighter;
+    height: 20px;
+    line-height: 20px;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    padding: 0px;
+    width: 60px;
+}
+.test1
+{
+	font-size: 18px;
+	}
+.cycle-sub-block .inner-num-text {
+    margin-bottom: 8%;
+    margin-top: 0%;
+    padding: 33% 18%;
+    position: relative;
+	width: 100%;
+}
+.prize-list-block
+{
+	 position: relative;
+	 margin-top: 10%;
+}
+.prize-list {
+    background-color: rgb(255, 255, 255);
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+    box-shadow: 1px 1px 1px rgba(204, 204, 204, 0.5);
+    float: left;
+    margin-right: 3%;
+    margin-top: 3%;
+    padding-left: 0;
+    padding-right: 0;
+  	padding-bottom: 0;
+    padding-top: 2%;   
+    position: relative;
+    text-align: center;
+    width: 22%;
+}
+.prize-list:hover, *:active {
+opacity:1;
+border: 2px solid inset;
+}
+.prize-list-text
+{
+	line-height: 20px;
+	position:relative;
+	padding: 2%;
+}
+.money
+{
+	font-size: 17px; 
+	font-weight:bold;
+	position:relative;
+	padding: 0px;
+	text-shadow: 2px 2px 2px rgba(150, 150, 150, 1);
+}
+/* plans page css ends by @meenakshi */
+
+@media only screen 
+and (max-width : 1900px) {
+/*plan page css*/
+
+.border-circle .cycle-sub-block {
+    margin-right: -19px;
+    margin-top: 5px;
+}
+}
+@media(max-width:1280px)	{
+/*plan page css*/
+.border-circle {
+    margin-top: 4px;
+    padding-left: 164px;
+}
+.cycle-sub-block:first-child {
+    margin-left: 95px;
+}
+.plan-wrapper {
+
+    margin-left: 62px;
+}
+} 
+@media(max-width: 1270px) {
+	.plan-wrapper {
+    margin-left: 39px;
+	}
+.plan-bottom-arrow {
+    left: 78%;
+    margin: 0 auto;
+    position: absolute;
+    top: 179px;
+}.plan-bottom-arrow > img {
+    width: 90%;
+}
+}
+@media(max-width: 1198px) {
+/*plan page css*/
+.cycle-blocks {
+    background-size: 67% auto;
+}
+.prize-wrapper {
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: 5pc;
+    margin-top: 0;
+    padding-left: 9pc;
+}
+.plan-bottom-arrow {
+    left: 88%;
+    margin: 0 auto;
+    position: absolute;
+    top: 177px;
+}
+.border-circle {
+    margin-top: 3px;}
+.cycle-sub-block:first-child {
+    margin-left: -3px;
+}
+.top-bottom-arrow {
+    background-position: left 3% top;
+}
+}
+
+@media(max-width: 1024px) {
+/*plan page css*/
+	.plan-top-bar {
+		background-image: url("../images/plan-page-top-arrow-background.png");
+		background-position: right 0 top;
+		background-repeat: no-repeat;
+		background-size: 36% auto;
+	}
+	.cycle-sub-block:first-child {
+    margin-left: 0;
+}
+	.footer-bottom-plan-back {
+    padding-top: 190px;
+	}
+	.top-bottom-arrow {
+		background-position: left 40px top;
+	}
+	.plan-wrapper {
+    margin: 0 auto;
+}
+}
+@media(max-width:1023px)
+{
+	.top-bottom-arrow {
+    	background-image: none !important;
+	 }
+	.cycle-blocks {
+    	background-image: none !important;
+	}
+	.plan-top-bar {
+		background-image: none !important;
+	}
+
+	.prize-wrapper {
+    margin: 0 0 0 auto;
+    padding-left: 0;
+}
+	.cycle-sub-block {
+    width: 229px;
+	height: 229px;
+	}
+	.border-circle {
+    margin-top: 0px;
+    padding-left: 0px;
+	}
+	.cycle-sub-block .inner-num-text {
+    margin-bottom: 0;
+    margin-top: 0;
+    padding: 40% 29%;
+	}
+	.plan-bottom-arrow {
+		background-image: none !important;
+		display: none;
+ }
+@media(max-width:991px) {
+	/*plan page css*/
+	
+	.top-arrow-title {
+    	padding-top: 2pc;
+	}
+	
+	.border-circle {
+    width: 68%;
+	}
+	.cycle-sub-block:first-child {
+    margin-left: -3px;
+}
+	/*plan page css ends*/
+}
+@media(max-width:980px){
+/*plan css*/
+.border-circle {
+	   padding-left: 26px;
+    }
+.top-arrow-title {
+    padding-top: 2pc;
+    }
+
+.prize-wrapper {
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: 0;
+    margin-top: 0;
+    padding-left: 0;
+    text-align: center;
+}
+}
+
+@media(max-width:768px) {
+	/*plan page css*/
+	.prize-list {
+    width: 47% !important;
+	}
+	.footer-bottom-plan-back {
+    padding-top: 0;
+}
+	.plan-top-bar {
+    background-position: right 0 top;
+	}
+	.feature-top-bar {
+    background-image: url("../images/top-back-image.png");
+    background-position: left 25px top;
+	}
+	.prize-wrapper {
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    padding-left: 0;
+    text-align: center;
+	}
+	.top-arrow-title {
+    padding-top: 2pc;
+ 	}
+	.border-circle {
+    margin: 0 auto;
+    width: 73%;
+}
+	.border-circle .cycle-sub-block {
+    margin-right: 0;
+    margin-top: 5px;
+	}
+	/*plan page css ends*/
+}
+
+@media(max-width:721px) {
+.border-circle {
+    margin: 0 auto;
+    width: 75%;
+}
+/*plan css*/
+}
+@media(max-width:675px) {
+.border-circle {
+    margin: 0 auto;
+    width: 84%;
+}
+/*plan css*/
+}
+
+@media(max-width:600px) {
+/*plan page css*/
+.top-arrow-title {
+    padding-top: 0;
+	 }
+.border-circle {
+    padding-left: 0;
+    text-align: center;
+	}
+.cycle-sub-block {
+    background-size: 100% auto;
+    height: 234px;
+}
+
+.border-circle {
+    width: 83%;
+}
+}
+@media(max-width:568px) {
+	.border-circle {
+    	width: 50%;
+	}
+}
+@media(max-width:414px) {
+	.border-circle {
+    	width: 60%;
+	}
+}
+
+@media(max-width:375px) {
+	/*plan page css*/
+		.border-circle {
+    	width: 50%;
+	}
+	.cycle-sub-block:first-child {
+    margin-left: 0px;
+	}
+	.prize-list {
+    width: 100% !important;
+
+	}
+
+	.border-circle {
+    margin-bottom: 0;
+    margin-right: auto;
+    margin-top: 0;
+    text-align: center;
+    width: 70%;
+}
+	/*plan page css ends*/
+}
+
+
+@media(max-width:360px) {
+
+/*plan page responsive css starts*/
+	.footer-bottom-plan-back {
+    padding-top: 151px;
+	}
+	.prize-wrapper {
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    padding-left: 0;
+    text-align: center;
+	}
+	.cycle-blocks {
+		margin: 0 auto 0 25px;
+	}
+	.border-circle {
+    width: 90%;
+}
+/*plan page responsive css ends*/
+}
+@media(max-width:320px) {
+	
+	/*Plans page responsive css*/
+	.cycle-blocks {
+		margin: 0 auto 0 0;
+	}
+	
+	.border-circle .cycle-sub-block {
+		margin-right: -19px;
+		margin-top: 0;
+	}
+	
+	.border-circle {
+    width: 80%;
+	}
+	.top-arrow-title {
+    padding-top: 0pc;
+    }
+	
+	.footer-arrow {
+		margin-bottom: 0;
+		padding-bottom: 0;
+		position: relative;
+	}
+	/*Plans page responsive css ends*/
+}
+
+	
+	/* ============================== End CSS Management Report Page ============================== */
+
+
