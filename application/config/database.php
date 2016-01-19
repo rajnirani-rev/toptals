@@ -49,12 +49,10 @@ $active_group = 'default';
 $active_record = TRUE;
 
 $db['default']['hostname'] = 'localhost';
-/*$db['default']['username'] = 'invest_toptals_w';
-$db['default']['password'] = 'nxYiEoyf';
-$db['default']['database'] = 'invest_toptals_w';*/
-$db['default']['username'] = 'toptals_tals';
-$db['default']['password'] = 'B@c87Wol34*&';
-$db['default']['database'] = 'toptals_data';
+
+$db['default']['username'] = '';
+$db['default']['password'] = '';
+$db['default']['database'] = '';
 
 $db['default']['dbdriver'] = 'mysql';
 $db['default']['dbprefix'] = '';
